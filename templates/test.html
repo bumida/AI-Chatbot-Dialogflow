@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test용</title>
+</head>
+<body>
+{% block tilte %} 데이터 테스트 {% endblock %}
+
+{% block content %}
+
+color is {{ d1 }}
+<br>
+
+{% for c in d2 %}
+{{ c }}
+{% endfor %}
+<br>
+
+{% for k, v in d3.items() %}
+key: {{ k }}, value: {{ v }}
+<br>
+{% endfor %}
+
+{% endblock %}
+</body>
+</html>
