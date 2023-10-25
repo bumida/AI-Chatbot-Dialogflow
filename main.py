@@ -15,11 +15,9 @@ app = Flask(__name__)
 run_with_ngrok(app)
 @app.route('/', methods=['GET','POST'])
 def index_page_landing():
-    print('들어옴')
     if request.method == "POST":
         pass
     else:
-        print('들어옴2')
         dialog = conversation_chatbot()
         return render_template('chat.html', context=dialog)
 
@@ -27,10 +25,10 @@ def index_page_landing():
 def conversation_chatbot():
     keys = []
     values = []
-    print('들어옴3')
+    
     #requestText = request.args.get['item_id']
     #print(requestText)
-    print('들어옴4')
+    
     requestText = input("request text : ")
     respText = ""
     while(requestText != 'quit'):
