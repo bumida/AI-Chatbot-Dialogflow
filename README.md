@@ -9,4 +9,4 @@
 다양한 응용 분야: 고객 지원, 호텔 예약, 날씨 예보, 식단 정보, 엔터테인먼트 추천 및 더 많은 영역에서 작동할 수 있는 다목적 챗봇입니다.
 
 
-<img width="300" alt="스크린샷 2023-10-25 오후 6 34 39" src="https://github.com/bumida/python-web-flask/assets/77855625/2d37abbe-a6e5-4a77-a760-82f08f1ec0a5">
+<img width="600" alt="스크린샷 2023-10-25 오후 6 34 39" src="https://github.com/bumida/python-web-flask/assets/77855625/2d37abbe-a6e5-4a77-a760-82f08f1ec0a5">
